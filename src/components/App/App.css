@@ -1,0 +1,208 @@
+h1 {
+  font-size: calc(10px + 10vmin);
+  margin: 0.5em 0 0 0;
+}
+h2 {
+  font-size: calc(10px + 7vmin);
+  margin: 0;
+}
+a {
+  color: #fff;
+}
+
+nav.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0.5em 0 0.5em 0;
+  background-color: rgba(0,0,0,0.3);
+}
+nav.main-nav a {
+  color: #fff;
+  font-size: calc(10px + 2vmin);
+  text-transform: uppercase;
+}
+nav.main-nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+  color: rgba(255,255,255,0.3);
+  font-size: 0.5em;
+}
+footer a {
+  color: rgba(255,255,255,0.3);
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+}
+.content-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+}
+/* Home */
+.home {
+  background-image: url('/header.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: #fff;
+}
+.home h1 {
+  font-size: calc(10px + 14vmin);
+  padding-left: calc(10px + 22vmin);
+}
+.home h1, .home h2 {
+  margin: 0.5em 0 0.5em 0;
+}
+.home ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.home li {
+  margin-right: 1em;
+}
+.profile-photo {
+  position: absolute;
+  left: 0.2em;
+  width: calc(10px + 18vmin);
+  height: calc(10px + 18vmin);
+  border-radius: 50%;
+}
+
+/* Broadcast */
+.broadcast {
+  background-color: #4B3F72;
+  color: #fff;
+}
+.broadcast ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: calc(10px + 3vmin);
+}
+.broadcast li {
+  margin-bottom: 0.3em;
+}
+.broadcast li:before {
+  font-family: 'FontAwesome';
+  content: "\f14a";
+  margin-right: 0.3em;
+}
+/* Development */
+.development {
+  background-color: #0075C4;
+  color: #fff;
+}
+.development ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Nav */
+.main-nav {
+  position: fixed;
+  display: flex;
+  z-index: 2;
+}
+.main-nav-link {
+  margin-right: 1em;
+  text-decoration: none;
+}
+
+.fade-appear, .fade-enter {
+  opacity: 0; 
+  z-index: 1;
+}
+.fade-appear-active, .fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 150ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms linear;
+}
+/* Bar CSS */
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.bar{
+  background-color: #0267C1;
+  padding: 2px;
+  border-radius: 10px;
+  margin-bottom: 0.5em;
+  font-size: 0.7em;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #f3b0ff;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+
+.bar.front::before{
+  background-color: rgba(0,0,0,0.5);
+}
+.bar.back::before{
+  background-color: #a6cfe3;
+}
+
+.bar.learning::before{
+  width: calc(20% - 10px);
+}
+.bar.basic::before{
+  width: calc(40% - 10px);
+}
+.bar.intermediate::before{
+  width: calc(60% - 10px);
+}
+.bar.advanced::before{
+  width: calc(80% - 10px);
+}
+.bar.expert::before{
+  width: calc(100% - 10px);
+}
