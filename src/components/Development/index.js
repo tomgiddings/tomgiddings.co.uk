@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Development() {
+  document.title = "Tom Giddings - Web Developer";
   return (
     <div className="page">
       <div className="content-wrapper development">

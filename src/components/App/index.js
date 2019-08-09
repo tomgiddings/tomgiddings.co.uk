@@ -13,6 +13,7 @@ import Development from '../Development'
 
 class App extends Component {
   render() {
+    document.title = "Tom Giddings";
     return (
       <BrowserRouter>
         <div className="app">

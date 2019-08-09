@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Broadcast() {
+  document.title = "Tom Giddings - Broadcast Engineer";
   return (
     <div className="page">
       <div className="content-wrapper broadcast">
