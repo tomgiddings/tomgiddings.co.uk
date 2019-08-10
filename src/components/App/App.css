@@ -14,7 +14,7 @@ nav.main-nav {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  padding: 1vmin 0 1vmin 0;
+  padding: 1.5vmin 0 1.5vmin 0;
   background-color: rgba(0,0,0,0.3);
 }
 nav.main-nav a {
@@ -28,7 +28,7 @@ nav.main-nav a:hover {
 
 @media only screen and (max-width: 600px) {
   nav.main-nav a {
-    font-size: calc(10px + 1vmin);
+    font-size: calc(10px + 1.5vmin);
   }
 }
 
