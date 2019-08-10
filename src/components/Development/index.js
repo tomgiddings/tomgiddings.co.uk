@@ -7,7 +7,7 @@ function Development() {
     <div className="page">
       <div className="content-wrapper development">
         <h1><i className="fas fa-terminal">&nbsp;</i>Web Development</h1>
-        <p>Find me on <a href="https://github.com/tomgiddings"><i className="fab fa-github-alt">&nbsp;</i>Github</a>.</p>
+        <p>Find me on <a href="https://github.com/tomgiddings"><i className="fab fa-github-alt">&nbsp;</i>GitHub</a>.</p>
         <ul>
           <li className="bar front expert" data-skill="React JS"></li>
           <li className="bar front expert" data-skill="Node.js"></li>
