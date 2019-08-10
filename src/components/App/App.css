@@ -69,7 +69,7 @@ footer a {
 }
 
 .home h1 {
-  font-size: calc(10px + 14vmin);
+  font-size: calc(20px + 10vmin);
   padding-left: calc(10px + 22vmin);
 }
 .home h1, .home h2 {
