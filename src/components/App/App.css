@@ -15,7 +15,7 @@ nav.main-nav {
   justify-content: flex-end;
   width: 100%;
   padding: 1.5vmin 0 1.5vmin 0;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.7);
 }
 nav.main-nav a {
   color: #fff;
