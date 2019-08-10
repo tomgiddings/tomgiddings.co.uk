@@ -14,7 +14,6 @@ import Footer from '../Footer'
 
 class App extends Component {
   render() {
-    document.title = "Tom Giddings";
     return (
       <BrowserRouter>
         <div className="app">

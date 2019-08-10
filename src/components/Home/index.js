@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../Footer'
 
 function Home() {
+  document.title = "Tom Giddings";
   return (
     <div className="page home">
       <div className="content-wrapper">
