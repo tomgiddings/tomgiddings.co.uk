@@ -25,13 +25,11 @@ nav.main-nav a {
 nav.main-nav a:hover {
   text-decoration: underline;
 }
-
 @media only screen and (max-width: 600px) {
   nav.main-nav a {
     font-size: calc(10px + 1.5vmin);
   }
 }
-
 footer {
   position: absolute;
   right: 1em;
@@ -58,7 +56,7 @@ footer a {
   width: 100%;
   min-height: 100%;
   box-sizing: border-box;
-  padding: 1em 1em 2em 1em;
+  padding: 5vmin 1em 2em 1em;
 }
 /* Home */
 .home {
