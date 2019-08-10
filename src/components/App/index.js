@@ -10,6 +10,7 @@ import './App.css';
 import Home from '../Home'
 import Broadcast from '../Broadcast'
 import Development from '../Development'
+import Footer from '../Footer'
 
 class App extends Component {
   render() {
@@ -37,7 +38,6 @@ class App extends Component {
               </CSSTransition>
             </TransitionGroup>
           )}/>
-          <footer>Designed by Tom Giddings and built in React.js. <a href="https://github.com/tomgiddings/tomgiddings">View the code on Github</a>.</footer>
         </div>
       </BrowserRouter>
     )

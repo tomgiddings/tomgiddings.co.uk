@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer'
 
 function Broadcast() {
   document.title = "Tom Giddings - Broadcast Engineer";
@@ -13,6 +14,7 @@ function Broadcast() {
           <li>Worked on Outside Broadcasts including Snowbombing Festival, The Brit Awards, and the Isle of Wight Festival.</li>
           <li>Provided support including out of hours work.</li>
         </ul>
+        <Footer />
       </div>
     </div>
   );

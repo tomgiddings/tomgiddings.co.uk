@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer'
 
 function Development() {
   document.title = "Tom Giddings - Web Developer";
@@ -19,6 +20,7 @@ function Development() {
           <li className="bar front intermediate" data-skill="TDD"></li>
           <li className="bar front basic" data-skill="Ruby &amp; Rails"></li>
         </ul>
+        <Footer />
       </div>
     </div>
   );
