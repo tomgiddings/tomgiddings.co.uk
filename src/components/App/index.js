@@ -10,7 +10,6 @@ import './App.css';
 import Home from '../Home'
 import Broadcast from '../Broadcast'
 import Development from '../Development'
-import Footer from '../Footer'
 
 class App extends Component {
   render() {
