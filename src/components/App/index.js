@@ -1,3 +1,4 @@
+// @flow
 import React, { Component } from 'react'
 import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom'
 import {
@@ -11,7 +12,7 @@ import Home from '../Home'
 import Broadcast from '../Broadcast'
 import Development from '../Development'
 
-class App extends Component {
+class App extends Component<*> {
   render() {
     return (
       <BrowserRouter>
