@@ -16,7 +16,7 @@ function Development() {
           <li className="bar front expert" data-skill="Node.js"></li>
           <li className="bar front expert" data-skill="CSS"></li>
           <li className="bar front advanced" data-skill="Javascript"></li>
-        <li className="bar front advanced" data-skill="Git &amp; Github"></li>
+          <li className="bar front advanced" data-skill="Git &amp; Github"></li>
           <li className="bar front advanced" data-skill="MySQL"></li>
           <li className="bar front advanced" data-skill="AngularJS"></li>
           <li className="bar front intermediate" data-skill="Microsoft Azure"></li>
