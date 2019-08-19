@@ -40,7 +40,6 @@ footer {
 footer a {
   color: rgba(255,255,255,0.3);
 }
-
 .page {
   position: absolute;
   width: 100%;
@@ -65,7 +64,6 @@ footer a {
   background-size: 100% auto;
   color: #fff;
 }
-
 .home h1 {
   font-size: calc(30px + 8vmin);
   padding-left: calc(30px + 15vmin);
@@ -188,14 +186,12 @@ footer a {
   -moz-animation: load 2s 0s;
   -o-animation: load 2s 0s;
 }
-
 .bar.front::before{
   background-color: rgba(0,0,0,0.5);
 }
 .bar.back::before{
   background-color: #a6cfe3;
 }
-
 .bar.learning::before{
   width: calc(20% - 10px);
 }
