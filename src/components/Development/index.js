@@ -20,7 +20,9 @@ class Development extends React.Component<*> {
             <li className="bar front advanced" data-skill="Javascript"></li>
             <li className="bar front advanced" data-skill="Git &amp; Github"></li>
             <li className="bar front advanced" data-skill="MySQL"></li>
-            <li className="bar front advanced" data-skill="AngularJS"></li>
+            <li className="bar front advanced" data-skill="Angular"></li>
+            <li className="bar front advanced" data-skill="VMware vSphere"></li>
+            <li className="bar front intermediate" data-skill="SASS"></li>
             <li className="bar front intermediate" data-skill="Microsoft Azure"></li>
             <li className="bar front intermediate" data-skill="MongoDB"></li>
             <li className="bar front intermediate" data-skill="TDD"></li>
