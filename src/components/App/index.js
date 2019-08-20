@@ -5,7 +5,7 @@ import {
   CSSTransition,
   TransitionGroup,
 } from 'react-transition-group';
-import './App.css';
+import './App.scss';
 import Home from '../Home'
 import Broadcast from '../Broadcast'
 import Development from '../Development'

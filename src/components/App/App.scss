@@ -1,0 +1,249 @@
+$fallback_body: #000;
+$body_font: 'Lexend Deca', sans-serif;
+$font_awesome: 'FontAwesome';
+$dark_background_text: #fff;
+$faded_dark_background_text: rgba(255,255,255,0.3);
+$overlay_black: rgba(0,0,0,0.7);
+$purple: #4B3F72;
+$blue: #0075C4;
+$deep_blue: #0267C1;
+$pink: #f3b0ff;
+$box_start: rgba(0,0,0,0.5);
+$box_end: #a6cfe3;
+
+body {
+  margin: 0;
+  font-family: $body_font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $fallback_body;
+  font-size: calc(10px + 2vmin);
+}
+h1 {
+  font-size: calc(10px + 10vmin);
+  margin: 0.5em 0 0 0;
+}
+h2 {
+  font-size: calc(10px + 7vmin);
+  margin: 0;
+}
+a {
+  color: $dark_background_text;
+}
+
+nav.main-nav {
+  position: fixed;
+  display: flex;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 1.5vmin 0 1.5vmin 0;
+  background-color: $overlay_black;
+  a {
+    color: $dark_background_text;
+    font-size: calc(10px + 2vmin);
+    text-transform: uppercase;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.main-nav-link {
+  margin-right: 1em;
+  text-decoration: none;
+}
+footer {
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+  color: $faded_dark_background_text;
+  font-size: 0.5em;
+  a {
+    color: $faded_dark_background_text;
+  }
+}
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+}
+.content-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
+  padding: 10vmin 1em 2em 1em;
+}
+
+.home {
+  background-image: url('/header.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: $dark_background_text;
+  h1 {
+    font-size: calc(30px + 8vmin);
+    padding-left: calc(30px + 15vmin);
+    margin: 0.5em 0 0.5em 0;
+  }
+  h2 {
+    margin: 0.5em 0 0.5em 0;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  li {
+    margin-right: 1em;
+  }
+}
+.profile-photo {
+  position: absolute;
+  left: 0.2em;
+  width: calc(30px + 12vmin);
+  height: calc(30px + 12vmin);
+  border-radius: 50%;
+}
+
+.development {
+  background-color: $blue;
+  color: $dark_background_text;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+@keyframes "load" {
+  from {
+    width: 0%;
+  }
+}
+@-webkit-keyframes "load" {
+  from {
+    width: 0%;
+  }
+}
+@-moz-keyframes "load" {
+  from {
+    width: 0%;
+  }
+}
+@-o-keyframes "load" {
+  from {
+    width: 0%;
+  }
+}
+.fade-appear {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-appear-active {
+  opacity: 1;
+  transition: opacity 300ms linear 150ms;
+}
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 150ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms linear;
+}
+.bar {
+  background-color: $deep_blue;
+  padding: 2px;
+  border-radius: 10px;
+  margin-bottom: 0.5em;
+  font-size: 0.7em;
+  color: $dark_background_text;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  &::before {
+    content: attr(data-skill);
+    background-color: $pink;
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+  }
+}
+.bar.front {
+  &::before {
+    background-color: $box_start;
+  }
+}
+.bar.back {
+  &::before {
+    background-color: $box_end;
+  }
+}
+.bar.learning {
+  &::before {
+    width: calc(20% - 10px);
+  }
+}
+.bar.basic {
+  &::before {
+    width: calc(40% - 10px);
+  }
+}
+.bar.intermediate {
+  &::before {
+    width: calc(60% - 10px);
+  }
+}
+.bar.advanced {
+  &::before {
+    width: calc(80% - 10px);
+  }
+}
+.bar.expert {
+  &::before {
+    width: calc(100% - 10px);
+  }
+}
+
+.broadcast {
+  background-color: $purple;
+  color: $dark_background_text;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: calc(10px + 3vmin);
+  }
+  li {
+    margin-bottom: 0.3em;
+    &:before {
+      font-family: $font_awesome;
+      content: "\f14a";
+      margin-right: 0.3em;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav.main-nav {
+    a {
+      font-size: calc(10px + 1.5vmin);
+    }
+  }
+}
