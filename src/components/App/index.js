@@ -6,9 +6,9 @@ import {
   TransitionGroup,
 } from 'react-transition-group';
 import './App.scss';
-import Home from '../Home'
-import Broadcast from '../Broadcast'
-import Development from '../Development'
+import Home from '../Home';
+import Broadcast from '../Broadcast';
+import Development from '../Development';
 
 class App extends Component<*> {
   render() {
