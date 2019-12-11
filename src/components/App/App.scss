@@ -242,8 +242,9 @@ footer {
 
 @media only screen and (max-width: 600px) {
   nav.main-nav {
+    padding: 0.3em;
     a {
-      font-size: calc(10px + 1.5vmin);
+      font-size: calc(10px + 1.3vmin);
     }
   }
 }
