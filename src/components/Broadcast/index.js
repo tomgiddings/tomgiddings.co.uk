@@ -4,7 +4,7 @@ import Footer from '../Footer'
 
 class Broadcast extends React.Component<*> {
   render() {
-    document.title = "Tom Giddings - Broadcast Engineer";
+    document.title = 'Tom Giddings - Broadcast Engineer';
     return (
       <article className="page broadcast">
         <div className="content-wrapper">

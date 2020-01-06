@@ -6,7 +6,7 @@ class Home extends React.Component<*> {
   state = {
     hour: null,
     date: new Date(),
-    timeStamp: ""
+    timeStamp: ''
   }
 
   componentDidMount() {
@@ -19,13 +19,13 @@ class Home extends React.Component<*> {
   }
 
   getTimeStamp = () => {
-    const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     const timeStamp = days[this.state.date.getDay()] + " "
-      + months[this.state.date.getMonth()] + " "
-      + this.state.date.getDate() +  " "
-      + this.padZero(this.state.date.getHours()) + ":"
-      + this.padZero(this.state.date.getMinutes()) + ":"
+      + months[this.state.date.getMonth()] + ' '
+      + this.state.date.getDate() +  ' '
+      + this.padZero(this.state.date.getHours()) + ':'
+      + this.padZero(this.state.date.getMinutes()) + ':'
       + this.padZero(this.state.date.getSeconds());
     this.setState({
       timeStamp
@@ -42,7 +42,7 @@ class Home extends React.Component<*> {
 
   render() {
     const {hour, timeStamp} = this.state;
-    document.title = "Tom Giddings";
+    document.title = 'Tom Giddings - Web Developer and Broadcast Engineer';
     return (
       <article className="page home">
         <div className="content-wrapper">

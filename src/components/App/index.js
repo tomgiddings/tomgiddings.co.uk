@@ -17,7 +17,6 @@ class App extends Component<*> {
       <BrowserRouter>
         <div className="app">
           <Nav />
-          
           <Route render={({location}) => (
             <ScrollToTop location={location}>
               <Switch location={location}>

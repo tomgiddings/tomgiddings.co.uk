@@ -4,7 +4,7 @@ import Footer from '../Footer'
 
 class Development extends React.Component<*> {
   render() {
-    document.title = "Tom Giddings - Web Developer";
+    document.title = 'Tom Giddings - Web Developer';
     return (
       <article className="page development">
         <div className="content-wrapper">

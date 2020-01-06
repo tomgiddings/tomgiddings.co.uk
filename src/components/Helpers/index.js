@@ -1,5 +1,5 @@
 // @flow
-import { useState, useEffect } from "react"
+import { useState, useEffect } from 'react';
 
 export const ScrollCheck = () => {
   const [scroll, setScroll] = useState(true)
@@ -10,9 +10,9 @@ export const ScrollCheck = () => {
         setScroll(scrollCheck)
       }
     }
-    document.addEventListener("scroll", onScroll)
+    document.addEventListener('scroll', onScroll)
     return () => {
-      document.removeEventListener("scroll", onScroll)
+      document.removeEventListener('scroll', onScroll)
     }
   }, [scroll, setScroll])
   return scroll

@@ -10,7 +10,6 @@ class Contact extends React.Component<*> {
       status: ""
     };
   }
-
   submitForm(ev) {
     ev.preventDefault();
     const form = ev.target;
@@ -28,11 +27,10 @@ class Contact extends React.Component<*> {
       }
     };
     xhr.send(data);
-  }  
-
+  }
   render() {
     const { status } = this.state;
-    document.title = "Tom Giddings - Contact";
+    document.title = 'Tom Giddings - Contact';
     return (
       <article className="page contact">
         <div className="content-wrapper">
