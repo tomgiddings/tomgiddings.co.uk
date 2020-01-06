@@ -243,6 +243,10 @@ article.page {
   padding: 0.5vw;
   width: auto;
 }
+article.page img {
+  max-width: 96%;
+  padding: 0.5em;
+}
 div.content-wrapper {
   padding: calc(5vw + 60px) 1.5vw 0 1.5vw;
   width: 100%;
