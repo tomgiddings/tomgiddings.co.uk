@@ -6,9 +6,9 @@ class Broadcast extends React.Component<*> {
   render() {
     document.title = "Tom Giddings - Broadcast Engineer";
     return (
-      <div className="page">
-        <div className="content-wrapper broadcast">
-          <h1><i className="fas fa-headphones">&nbsp;</i>Broadcast Engineering</h1>
+      <article className="page broadcast">
+        <div className="content-wrapper">
+          <h1>Broadcast Engineer</h1>
           <p>I've worked as an engineer from Student and Community Radio through to national brands including Absolute Radio, Kiss, Magic, Planet Rock, and Kerrang! Radio.</p>
           <p>In 2017, I became one of the founding directors of <a href="https://www.safepairofhands.co.uk">Safe Pair of Hands Technology</a>, focussing on broadcast technology and IT.</p>
           <ul>
@@ -16,9 +16,8 @@ class Broadcast extends React.Component<*> {
             <li>Worked on Outside Broadcasts including Snowbombing Festival, The Brit Awards, and the Isle of Wight Festival.</li>
             <li>Provided support including out of hours work.</li>
           </ul>
-          <Footer />
         </div>
-      </div>
+      </article>
     );
   }
 }
