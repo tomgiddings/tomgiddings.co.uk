@@ -40,7 +40,7 @@ body {
   background-color: $primary_background;
   color: $fallback_text_color;
   font-family: $body_font;
-  font-size: calc(12px + 0.8vw);
+  font-size: calc(0.2vw + 15px);
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -138,6 +138,10 @@ form button {
   margin: 0.2em;
   padding: 0.2em;
 }
+.gallery img {
+  object-fit: contain;
+}
+
 .app > div {
   align-items: stretch;
   display: flex;
@@ -240,7 +244,7 @@ article.page {
   width: auto;
 }
 div.content-wrapper {
-  padding: calc(5vw + 50px) 1.5vw 0 1.5vw;
+  padding: calc(5vw + 60px) 1.5vw 0 1.5vw;
   width: 100%;
 }
 /*
