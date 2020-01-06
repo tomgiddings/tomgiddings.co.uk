@@ -11,12 +11,17 @@ class Development extends React.Component<*> {
           <h1>Web Developer</h1>
           <p>
             I have worked on both front and back end code using React, Node.js, CSS/SCSS, Javascript, Angular, Git, MySQL, MongoDB, Ruby &amp; Rails and ColdFusion.
-            I'm also happy configuring and maintaining VMware and Azure environments. Of course this list is far from exhaustive, and I'm always excited to learn new technologies and languages.</p>
+            I'm also happy configuring and maintaining VMware and Azure environments.
+          </p>
+          <p>
+            I have experience working on everything from small individual projects to maintaining large platforms as part of a development team and I'm always excited to learn new technologies and languages.
+          </p>
           <p>
             You can find me on <a href="https://github.com/tomgiddings"><i className="fab fa-github-alt">&nbsp;</i>GitHub</a>
             , and view my work experience on <a href="https://www.linkedin.com/in/tomgiddings/"><i className="fab fa-linkedin">&nbsp;</i>LinkedIn</a> or <a href="https://stackoverflow.com/story/tomgiddings"><i className="fab fa-stack-overflow">&nbsp;</i>Stack Overflow</a>.
           </p>
-          <h3>My Current stack:</h3>
+          <h3>What I'm currently most using</h3>
+          <p>At the moment I'm making use of Node.js, React and MongoDB for my projects.</p>
           <div className="gallery">
             <img src="/logos/nodejs.png" alt="Node.js" />
             <img src="/logos/react.png" alt="React" />
