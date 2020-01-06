@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom';
 import anime from 'animejs';
 import { ScrollCheck } from '../Helpers';
 
-
 const Nav = ({ }) => {
   const [showMenu, setShowMenu] = useState(false)
 
@@ -28,4 +27,4 @@ const Nav = ({ }) => {
     </span>
   )
 }
-export default Nav
+export default Nav;

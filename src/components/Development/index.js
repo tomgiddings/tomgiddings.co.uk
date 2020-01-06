@@ -1,6 +1,5 @@
 // @flow
 import React from 'react';
-import Footer from '../Footer'
 
 class Development extends React.Component<*> {
   render() {

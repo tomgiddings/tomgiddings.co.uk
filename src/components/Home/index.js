@@ -1,6 +1,5 @@
 // @flow
 import React from 'react';
-import Footer from '../Footer'
 
 class Home extends React.Component<*> {
   state = {
@@ -33,7 +32,6 @@ class Home extends React.Component<*> {
   }
 
   getHour = () => {
-   const date = new Date();
    const hour = this.state.date.getHours()
    this.setState({
       hour
