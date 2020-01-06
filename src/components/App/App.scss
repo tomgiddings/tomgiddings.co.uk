@@ -100,6 +100,34 @@ footer {
     color: map-get(map-get($palette, footer), text);
   }
 }
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+form input,
+form textarea {
+  font-size: 90%;
+  margin-bottom: 0.5em;
+  padding: 0.3em;
+}
+form label {
+  margin-bottom: 0.2em;
+}
+form button {
+  background-color: transparent;
+  border-color: #fff;
+  border-width: 3px;
+  color: #fff;
+  font-family: $header_font;
+  font-size: 120%;
+  font-weight: bold;
+  line-height: 1.5em;
+  margin-top: 0.5em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
 .gallery {
   display: flex;
   justify-content: center;
