@@ -264,11 +264,10 @@ div.content-wrapper {
   border: 1px solid #9d252b;
   border-radius: 50%;
   display: inline-block;
-  height: 10px;
+  height: 12px;
   left: 6px;
   position: relative;
-  top: 2px;
-  width: 10px;
+  width: 12px;
 }
 .fakeMinimize {
   background-color: #ffc100;
@@ -285,9 +284,10 @@ div.content-wrapper {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   box-sizing: border-box;
-  height: calc(1vw + 20px);
+  height: auto;
   margin: 0 auto;
   padding-left: 5px;
+  padding-top: 2px;
   width: 100%;
 }
 .fakeScreen {
