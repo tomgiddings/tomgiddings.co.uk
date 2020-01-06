@@ -17,7 +17,7 @@ class Broadcast extends React.Component<*> {
             <li>Helping to maintain broadcast and IT systems, from studio hardware to VMware vSphere environments.</li>
             <li>Supporting brands both during and out of hours.</li>
           </ul>
-          <p>I'm currently part of <a href="https://www.safepairofhands.co.uk">Safe Pair of Hands Technology</a>, focussing on broadcast technology and IT.</p>
+          <p>I'm currently part of <a href="https://www.safepairofhands.co.uk">Safe Pair of Hands Technology</a> working on IT and broadcast projects, and you can find out more about my work on <a href="https://www.linkedin.com/in/tomgiddings/"><i className="fab fa-linkedin">&nbsp;</i>LinkedIn</a>.</p>
           <a href="https://www.safepairofhands.co.uk">
             <img src="/logos/spohlogo.png" alt="Safe Pair of Hands Technology" />
           </a>
