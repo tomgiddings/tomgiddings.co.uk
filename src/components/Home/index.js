@@ -55,7 +55,8 @@ class Home extends React.Component<*> {
             <div className="fakeScreen">
               <p>Last login: {timeStamp} on ttys000</p>
               <p className="type-text">$ Good {hour < 12 ? `morning` : hour < 16 ? 'afternoon' : `evening`}.</p>
-              <p className="type-text">$ I'm Tom, a Web Developer &amp; Broadcast Engineer.&#9608;</p>
+              <p className="type-text">$ I'm Tom, a Web Developer &amp; Broadcast Engineer.</p>
+              <p className="type-text">$ Find out more using the menu in the top right.&#9608;</p>
             </div>
           </div>
         </div>
