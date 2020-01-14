@@ -1,5 +1,6 @@
 // @flow
 import React from 'react';
+import GitHub from '../GitHub';
 
 class Development extends React.Component<*> {
   render() {
@@ -19,13 +20,7 @@ class Development extends React.Component<*> {
             You can find me on <a href="https://github.com/tomgiddings"><i className="fab fa-github-alt">&nbsp;</i>GitHub</a>
             , and view my work experience on <a href="https://www.linkedin.com/in/tomgiddings/"><i className="fab fa-linkedin">&nbsp;</i>LinkedIn</a> or <a href="https://stackoverflow.com/story/tomgiddings"><i className="fab fa-stack-overflow">&nbsp;</i>Stack Overflow</a>.
           </p>
-          <h3>What I'm currently using most</h3>
-          <p>At the moment I'm making use of Node.js, React and MongoDB for my projects.</p>
-          <div className="gallery">
-            <img src="/logos/nodejs.png" alt="Node.js" />
-            <img src="/logos/react.png" alt="React" />
-            <img src="/logos/mongo.png" alt="MongoDB" />
-          </div>
+          <GitHub user="tomgiddings" />
         </div>
       </article>
     );
