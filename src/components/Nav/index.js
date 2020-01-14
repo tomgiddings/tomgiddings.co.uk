@@ -1,10 +1,9 @@
 // @flow
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import anime from 'animejs';
 import { ScrollCheck } from '../Helpers';
 
-const Nav = ({ }) => {
+const Nav = () => {
   const [showMenu, setShowMenu] = useState(false)
 
   const toggleMenu = () => {
