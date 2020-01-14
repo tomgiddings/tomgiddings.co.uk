@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders matching snapshot 1`] = `
+<DocumentFragment>
+  <span>
+    <header
+      class="top-bar"
+    >
+      <span
+        class="logo show"
+      >
+        <a
+          href="/"
+        >
+          Tom Giddings
+        </a>
+      </span>
+      <button
+        class="toggle-menu"
+      >
+        <span
+          class="toggle-menu-inner hide"
+        />
+      </button>
+    </header>
+    <nav
+      class="main-nav hide"
+    >
+      <a
+        aria-current="page"
+        class="main-nav-link active"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        class="main-nav-link"
+        href="/development"
+      >
+        Web Developer
+      </a>
+      <a
+        class="main-nav-link"
+        href="/broadcast"
+      >
+        Broadcast Engineer
+      </a>
+      <a
+        class="main-nav-link"
+        href="/contact"
+      >
+        Contact Me
+      </a>
+    </nav>
+  </span>
+</DocumentFragment>
+`;
