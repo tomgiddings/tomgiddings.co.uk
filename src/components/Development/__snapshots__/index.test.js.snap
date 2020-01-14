@@ -53,28 +53,19 @@ exports[`Renders correctly 1`] = `
         </a>
         .
       </p>
-      <h3>
-        What I'm currently using most
-      </h3>
-      <p>
-        At the moment I'm making use of Node.js, React and MongoDB for my projects.
-      </p>
-      <div
-        class="gallery"
-      >
-        <img
-          alt="Node.js"
-          src="/logos/nodejs.png"
+      <section>
+        <div
+          class="loading"
+        >
+          <i
+            class="fas fa-spinner fa-spin"
+          />
+          Loading...
+        </div>
+        <ul
+          class="cards"
         />
-        <img
-          alt="React"
-          src="/logos/react.png"
-        />
-        <img
-          alt="MongoDB"
-          src="/logos/mongo.png"
-        />
-      </div>
+      </section>
     </div>
   </article>
 </DocumentFragment>
