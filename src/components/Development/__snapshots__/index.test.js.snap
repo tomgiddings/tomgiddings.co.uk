@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<DocumentFragment>
+  <article
+    class="page development"
+  >
+    <div
+      class="content-wrapper"
+    >
+      <h1>
+        Web Developer
+      </h1>
+      <p>
+        I have worked on both front and back end code using React, Node.js, CSS/SCSS, Javascript, Angular, Git, MySQL, MongoDB, Ruby & Rails and ColdFusion. I'm also happy configuring and maintaining VMware and Azure environments.
+      </p>
+      <p>
+        I have experience working on everything from small individual projects to maintaining large platforms as part of a development team and I'm always excited to learn new technologies and languages.
+      </p>
+      <p>
+        You can find me on 
+        <a
+          href="https://github.com/tomgiddings"
+        >
+          <i
+            class="fab fa-github-alt"
+          >
+             
+          </i>
+          GitHub
+        </a>
+        , and view my work experience on 
+        <a
+          href="https://www.linkedin.com/in/tomgiddings/"
+        >
+          <i
+            class="fab fa-linkedin"
+          >
+             
+          </i>
+          LinkedIn
+        </a>
+         or 
+        <a
+          href="https://stackoverflow.com/story/tomgiddings"
+        >
+          <i
+            class="fab fa-stack-overflow"
+          >
+             
+          </i>
+          Stack Overflow
+        </a>
+        .
+      </p>
+      <h3>
+        What I'm currently using most
+      </h3>
+      <p>
+        At the moment I'm making use of Node.js, React and MongoDB for my projects.
+      </p>
+      <div
+        class="gallery"
+      >
+        <img
+          alt="Node.js"
+          src="/logos/nodejs.png"
+        />
+        <img
+          alt="React"
+          src="/logos/react.png"
+        />
+        <img
+          alt="MongoDB"
+          src="/logos/mongo.png"
+        />
+      </div>
+    </div>
+  </article>
+</DocumentFragment>
+`;

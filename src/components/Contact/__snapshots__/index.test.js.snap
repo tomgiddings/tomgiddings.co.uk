@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<DocumentFragment>
+  <article
+    class="page contact"
+  >
+    <div
+      class="content-wrapper"
+    >
+      <h1>
+        Contact Me
+      </h1>
+      <form
+        action="https://formspree.io/xknolrqo"
+        method="POST"
+      >
+        <label>
+          Email:
+        </label>
+        <input
+          name="email"
+          type="email"
+        />
+        <label>
+          Message:
+        </label>
+        <textarea
+          name="message"
+          required=""
+          rows="5"
+        />
+        <button>
+          Send
+        </button>
+      </form>
+      <ul>
+        <li>
+          <a
+            href="https://github.com/tomgiddings"
+          >
+            <i
+              class="fab fa-4x fa-github-square"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/tomgiddings/"
+          >
+            <i
+              class="fab fa-4x fa-linkedin"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://instagram.com/tomgiddings/"
+          >
+            <i
+              class="fab fa-4x fa-instagram"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </article>
+</DocumentFragment>
+`;

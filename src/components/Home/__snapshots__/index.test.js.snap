@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders matching snapshot 1`] = `
+<DocumentFragment>
+  <article
+    class="page home"
+  >
+    <div
+      class="content-wrapper"
+    >
+      <div
+        class="terminal"
+      >
+        <div
+          class="fakeMenu"
+        >
+          <div
+            class="fakeButtons fakeClose"
+          />
+          <div
+            class="fakeButtons fakeMinimize"
+          />
+          <div
+            class="fakeButtons fakeZoom"
+          />
+        </div>
+        <div
+          class="fakeScreen"
+        >
+          <p>
+            Last login: Mon Jul 2 08:56:47 on ttys000
+          </p>
+          <p
+            class="type-text"
+          >
+            $ Good morning.
+          </p>
+          <p
+            class="type-text"
+          >
+            $ I'm Tom, a Web Developer & Broadcast Engineer.
+          </p>
+          <p
+            class="type-text"
+          >
+            $ Find out more using the menu in the top right.█
+          </p>
+        </div>
+      </div>
+    </div>
+  </article>
+</DocumentFragment>
+`;
