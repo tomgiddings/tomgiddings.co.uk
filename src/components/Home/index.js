@@ -4,7 +4,7 @@ import React from 'react';
 class Home extends React.Component<*> {
   state = {
     hour: null,
-    date: new Date(),
+    date: new Date(Date.now()),
     timeStamp: ''
   }
 
