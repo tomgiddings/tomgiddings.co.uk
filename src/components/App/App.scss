@@ -53,7 +53,7 @@ a {
 }
 h1,h2,h3,h4 {
   font-family: $header_font;
-  margin: 0.2em 0;
+  margin: 0.3em 0 0.2em 0;
   text-transform: uppercase;
 }
 h1 {
@@ -278,7 +278,7 @@ article.page {
   width: auto;
 }
 article.page img {
-  max-width: 96%;
+  max-width: 95%;
   padding: 0.5em;
 }
 div.content-wrapper {
