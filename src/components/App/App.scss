@@ -17,17 +17,20 @@ $palette: (
     ),
     iris: (
         base: #00b4b1,
+        secondary: #008a87,
         header: #f9e093,
         text: #000
     ),
     blue: (
         base: #243f93,
+        secondary: #002773,
         header: #f3896f,
         text: #f3896f
 
     ),
     red: (
         base: #b11f24,
+        secondary: #7a1919,
         header: #fff,
         text: #fff
     ),
@@ -381,6 +384,7 @@ article.home h3 {
 
 article.development {
   background-color: map-get(map-get($palette, blue), base);
+  background: radial-gradient(circle, map-get(map-get($palette, blue), base) 0%, map-get(map-get($palette, blue), secondary) 100%);
 }
 article.development h1,
 article.development h2,
@@ -395,6 +399,7 @@ article.development img {
 
 article.broadcast {
   background-color: map-get(map-get($palette, red), base);
+  background: radial-gradient(circle, map-get(map-get($palette, red), base) 0%, map-get(map-get($palette, red), secondary) 100%);
 }
 article.broadcast h1,
 article.broadcast h2,
@@ -404,6 +409,7 @@ article.broadcast h3 {
 
 article.contact {
   background-color: map-get(map-get($palette, iris), base);
+  background: radial-gradient(circle, map-get(map-get($palette, iris), base) 0%, map-get(map-get($palette, iris), secondary) 100%);
 }
 article.contact h1,
 article.contact h2,
