@@ -47,6 +47,55 @@ exports[`Renders matching snapshot 1`] = `
           </p>
         </div>
       </div>
+      <div
+        class="buttons"
+      >
+        <h4>
+          Find me online
+        </h4>
+        <a
+          href="https://www.instagram.com/tomgiddings/"
+        >
+          <i
+            aria-hidden="true"
+            class="fab fa-instagram fa-3x"
+            title="Instagram"
+          />
+          <span
+            class="sr-only"
+          >
+            Instagram
+          </span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/tomgiddings/"
+        >
+          <i
+            aria-hidden="true"
+            class="fab fa-linkedin-in fa-3x"
+            title="LinkedIn"
+          />
+          <span
+            class="sr-only"
+          >
+            LinkedIn
+          </span>
+        </a>
+        <a
+          href="https://github.com/tomgiddings"
+        >
+          <i
+            aria-hidden="true"
+            class="fab fa-github fa-3x"
+            title="GitHub"
+          />
+          <span
+            class="sr-only"
+          >
+            GitHub
+          </span>
+        </a>
+      </div>
     </div>
   </article>
 </DocumentFragment>

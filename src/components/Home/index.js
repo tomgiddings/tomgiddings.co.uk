@@ -57,6 +57,21 @@ class Home extends React.Component<*> {
               <p className="type-text">$ Find out more using the menu in the top right.&#9608;</p>
             </div>
           </div>
+          <div className="buttons">
+            <h4>Find me online</h4>
+            <a href="https://www.instagram.com/tomgiddings/">
+              <i aria-hidden="true" className="fab fa-instagram fa-3x" title="Instagram"></i>
+              <span className="sr-only">Instagram</span>
+            </a>
+            <a href="https://www.linkedin.com/in/tomgiddings/">
+              <i aria-hidden="true" className="fab fa-linkedin-in fa-3x" title="LinkedIn"></i>
+              <span className="sr-only">LinkedIn</span>
+            </a>
+            <a href="https://github.com/tomgiddings">
+              <i aria-hidden="true" className="fab fa-github fa-3x" title="GitHub"></i>
+              <span className="sr-only">GitHub</span>
+            </a>
+          </div>
         </div>
       </article>
     );    

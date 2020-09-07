@@ -98,7 +98,6 @@ span.logo.hide {
 footer {
   background-color: map-get(map-get($palette, dark), base);
   color: map-get(map-get($palette, footer), text);
-  display: flex;
   font-size: calc(0.3vw + 8pt);
   opacity: 0.5;
   padding: calc(0.1vh + 1em) 2vw;
@@ -368,6 +367,21 @@ div.content-wrapper {
   33% { width: 0; }
   66% { width: 0; }
   100% { width: 100; }
+}
+
+/* 
+* Buttons
+*/
+.buttons {
+  margin-top: 1em;
+
+  h4 {
+    margin-bottom: 0.5em;
+  }
+
+  i {
+    margin-right: 20px;
+  }
 }
 
 /*
