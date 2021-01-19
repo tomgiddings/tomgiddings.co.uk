@@ -51,7 +51,7 @@ exports[`Renders matching snapshot 1`] = `
         class="buttons"
       >
         <h4>
-          Find me online
+          Find me online:
         </h4>
         <a
           href="https://www.instagram.com/tomgiddings/"

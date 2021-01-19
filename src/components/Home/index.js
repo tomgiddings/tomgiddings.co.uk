@@ -58,7 +58,7 @@ class Home extends React.Component<*> {
             </div>
           </div>
           <div className="buttons">
-            <h4>Find me online</h4>
+            <h4>Find me online:</h4>
             <a href="https://www.instagram.com/tomgiddings/">
               <i aria-hidden="true" className="fab fa-instagram fa-3x" title="Instagram"></i>
               <span className="sr-only">Instagram</span>
