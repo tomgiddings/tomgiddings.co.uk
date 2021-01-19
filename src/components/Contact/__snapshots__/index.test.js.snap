@@ -28,12 +28,15 @@ exports[`Renders correctly 1`] = `
         <textarea
           name="message"
           required=""
-          rows="5"
+          rows="7"
         />
         <button>
           Send
         </button>
       </form>
+      <h4>
+        Alternatively, you can contact me via the following:
+      </h4>
       <ul>
         <li>
           <a

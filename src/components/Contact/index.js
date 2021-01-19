@@ -38,10 +38,11 @@ class Contact extends React.Component<*> {
             <label>Email:</label>
             <input type="email" name="email" />
             <label>Message:</label>
-            <textarea name="message" rows="5" required></textarea>
+            <textarea name="message" rows="7" required></textarea>
             {status === "SUCCESS" ? <p>Thankyou! I'll get back to you as soon as possible.</p> : <button>Send</button>}
             {status === "ERROR" && <p>Ooops! There was an error. Please try again.</p>}
           </form>
+          <h4>Alternatively, you can contact me via the following:</h4>
           <ul>
             <li><a href="https://github.com/tomgiddings"><i className="fab fa-4x fa-github-square"></i></a></li>
             <li><a href="https://www.linkedin.com/in/tomgiddings/"><i className="fab fa-4x fa-linkedin"></i></a></li>

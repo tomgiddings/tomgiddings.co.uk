@@ -3,7 +3,7 @@ $secondary_background: #00b4b1;
 $fallback_text_color: #fff;
 $link_color: #fff;
 $header_font: 'Raleway', sans-serif;
-$body_font: 'Source Sans Pro', sans-serif;
+$body_font: 'Merriweather', serif;
 $palette: (
     dark: (
         base: #1d1e1e,
@@ -16,21 +16,21 @@ $palette: (
         text: rgb(139, 135, 130)
     ),
     iris: (
-        base: #00b4b1,
-        secondary: #008a87,
-        header: #f9e093,
-        text: #000
+        base: #0677a1,
+        secondary: #0677a1,
+        header: #fff,
+        text: #fff
     ),
     blue: (
-        base: #243f93,
-        secondary: #002773,
-        header: #f3896f,
-        text: #f3896f
+        base: #2d4159,
+        secondary: #2d4159,
+        header: #fff,
+        text: #fff
 
     ),
     red: (
-        base: #b11f24,
-        secondary: #7a1919,
+        base: #895061,
+        secondary: #59253a,
         header: #fff,
         text: #fff
     ),
@@ -39,11 +39,21 @@ $palette: (
     )
 );
 
+@mixin small-underline {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  right: 90%;
+  height: 5px;
+  display:block;
+}
+
 body {
   background-color: $primary_background;
   color: $fallback_text_color;
   font-family: $body_font;
-  font-size: calc(0.2vw + 15px);
+  font-size: calc(0.2vw + 13px);
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -51,13 +61,18 @@ body {
 a {
   color: $link_color;
 }
+p {
+  margin-bottom: 1.5em;
+}
 h1,h2,h3,h4 {
   font-family: $header_font;
   margin: 0.3em 0 0.2em 0;
+  position: relative;
   text-transform: uppercase;
 }
 h1 {
   font-size: 250%;
+  padding-bottom: 0.1em;
 }
 h2 {
   font-size: 200%;
@@ -108,7 +123,8 @@ footer {
 form {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 form input,
 form textarea {
@@ -118,18 +134,19 @@ form textarea {
   padding: 0.5em;
 }
 form label {
-  margin-bottom: 0.2em;
+  margin-bottom: 0.5em;
+  font-family: 'Raleway', sans-serif;
 }
 form button {
   background-color: transparent;
-  border-color: #fff;
-  border-width: 3px;
+  border: 0;
   color: #fff;
   font-family: $header_font;
-  font-size: 120%;
+  font-size: 130%;
   font-weight: bold;
   line-height: 1.5em;
   margin-top: 0.5em;
+  padding-left: 0;
   text-align: left;
   text-transform: uppercase;
 }
@@ -162,22 +179,27 @@ form button {
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-bottom: 1.5em;
 }
 .cards a {
   text-decoration: none;
 }
 .cards a h4 {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .cards li {
+  background: #1F2833;
   margin: 1vw 3% 0 0;
   width: 30%;
 }
 .cards li p {
   font-size: 90%;
+  padding: 10px;
+  margin-top: 0;
 }
-.cards h2 {
+.cards h4 {
   font-size: 120%;
+  padding: 10px;
 }
 .loading i {
   margin-right: 0.5em;
@@ -405,6 +427,10 @@ article.development h2,
 article.development h3 {
   color: map-get(map-get($palette, blue), header);
 }
+article.development h1:before {
+  @include small-underline;
+  background: map-get(map-get($palette, blue), header);
+}
 article.development img {
   background-color: #fff;
   max-width: 100%;
@@ -420,6 +446,10 @@ article.broadcast h2,
 article.broadcast h3 {
   color: map-get(map-get($palette, red), header);
 }
+article.broadcast h1:before {
+  @include small-underline;
+  background: map-get(map-get($palette, red), header);
+}
 
 article.contact {
   background-color: map-get(map-get($palette, iris), base);
@@ -430,6 +460,11 @@ article.contact h2,
 article.contact h3 {
   color: map-get(map-get($palette, iris), header);
 }
+article.contact h1:before {
+  @include small-underline;
+  background: map-get(map-get($palette, iris), header);
+}
+
 article.contact ul {
   display: flex;
   list-style: none;
