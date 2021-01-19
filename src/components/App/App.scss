@@ -49,6 +49,26 @@ $palette: (
   display:block;
 }
 
+@mixin ellipsis() {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@mixin word-wrap() {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+
+
 body {
   background-color: $primary_background;
   color: $fallback_text_color;
@@ -189,7 +209,7 @@ form button {
 }
 .cards li {
   background: #1F2833;
-  margin: 1vw 3% 0 0;
+  margin: 2.5vw 2.5vw 0 0;
   width: 30%;
 }
 .cards li p {
@@ -200,6 +220,8 @@ form button {
 .cards h4 {
   font-size: 105%;
   padding: 10px;
+  @include word-wrap;
+  @include ellipsis;
 }
 .loading i {
   margin-right: 0.5em;
