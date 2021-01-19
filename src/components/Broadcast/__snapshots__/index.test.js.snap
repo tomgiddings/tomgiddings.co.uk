@@ -51,14 +51,17 @@ exports[`Renders correctly 1`] = `
         </a>
         .
       </p>
-      <a
-        href="https://www.safepairofhands.co.uk"
-      >
-        <img
-          alt="Safe Pair of Hands Technology"
-          src="/logos/spohlogo.png"
-        />
-      </a>
+      <p>
+        <a
+          href="https://www.safepairofhands.co.uk"
+        >
+          <img
+            alt="Safe Pair of Hands Technology"
+            class="logo"
+            src="/logos/spohlogo.png"
+          />
+        </a>
+      </p>
     </div>
   </article>
 </DocumentFragment>

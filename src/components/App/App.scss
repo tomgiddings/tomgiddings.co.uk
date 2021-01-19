@@ -478,6 +478,10 @@ article.broadcast h1:before {
   @include small-underline;
   background: map-get(map-get($palette, red), header);
 }
+article.broadcast .logo {
+  width: 300px;
+  height: auto;
+}
 
 article.contact {
   background-color: map-get(map-get($palette, iris), base);
