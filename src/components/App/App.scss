@@ -83,6 +83,11 @@ a {
 }
 p {
   margin-bottom: 1.5em;
+  line-height: 1.5em;
+}
+li {
+  line-height: 1.5em;
+  margin-bottom: 0.5em; 
 }
 h1,h2,h3,h4 {
   font-family: $header_font;
@@ -378,7 +383,7 @@ div.content-wrapper {
   width: 100%;
 }
 .type-text {
-  margin: 6px 10px 0 0;
+  margin: 6px 0 0 0;
   overflow: hidden;
   padding: 0;
   white-space: nowrap;
@@ -417,14 +422,14 @@ div.content-wrapper {
 * Buttons
 */
 .buttons {
-  margin-top: 1em;
+  margin-top: 1.5em;
 
   h4 {
     margin-bottom: 0.5em;
   }
 
   i {
-    margin-right: 20px;
+    margin-right: 0.3em;
   }
 }
 
